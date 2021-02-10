@@ -1,0 +1,15 @@
+{
+  "name": "array-find-last",
+  "version": "1.0.0",
+  "description": "Add findLast and findLastIndex to Array.prototype. The findLastIndex() method returns the index of the last element in the array that satisfies the provided testing function. Otherwise, it returns -1, indicating that no element passed the test. The findLast() method returns the value of the last element in the provided array that satisfies the provided testing function. If no values satisfies the testing function, undefined is returned.",
+  "main": "index.js",
+  "scripts": {
+    "example": "node ./examples/example-ecmascript-import.mjs",
+    "test": "mocha ./test/index.test.js"
+  },
+  "author": "felixdrp",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
